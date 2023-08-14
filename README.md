@@ -153,4 +153,4 @@ yolo task=detect mode=predict model=./runs/detect/trainX/weights/best.pt conf=0.
 - conf=0.25: độ tin cậy bằng 25%, các bạn có thể đổi độ tin cậy lên 
 - source='XXX.png': thay xxx.png bằng file ảnh lúc nãy các bạn đã lưu trong thư mục ultralytics
 
-#### sau khi huấn luyện, các bạn vào thư mục ```runs\detect\predict6``` để xem kết quả
+#### sau khi huấn luyện, các bạn vào thư mục ```runs\detect\predictX``` với X tương ứng với thư mục đã lưu ở dòng cuối sau khi test để xem kết quả
